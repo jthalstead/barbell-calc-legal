@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Barbell.calc</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: #e9e7e2;
+    color: #26241f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    background: #fbfaf8;
+    border: 1px solid #e0ddd6;
+    border-radius: 16px;
+    padding: 2.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin: 0 0 0.25rem;
+  }
+  h2 {
+    font-size: 1.05rem;
+    margin: 2rem 0 0.5rem;
+    color: #c94f43;
+  }
+  h3 {
+    font-size: 1rem;
+    margin: 1.75rem 0 0.4rem;
+  }
+  p.meta {
+    color: #8a877f;
+    margin: 0 0 2rem;
+    font-size: 0.9rem;
+  }
+  a {
+    color: #c94f43;
+  }
+  ul {
+    padding-left: 1.25rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1c1b18; color: #f2f1ec; }
+    main { background: #201f1c; border-color: #3a3833; }
+    p.meta { color: #8a877f; }
+    h2 { color: #e0776d; }
+    a { color: #e0776d; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Barbell.calc Support</h1>
+  <p class="meta">Last updated: August 8, 2026</p>
+
+  <p>Barbell.calc is a barbell plate and percentage calculator. It is an
+  independent app by an NTR Barbell athlete, made with the gym's
+  permission.</p>
+
+  <p>The app works entirely offline and collects no data — see the
+  <a href="https://jthalstead.github.io/barbell-calc-legal/">privacy
+  policy</a>.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>Why is the total different from the weight I asked for?</h3>
+  <p>The app only loads plates it can actually reach with the plates you
+  have switched on. When your target isn't reachable, the result reads
+  <strong>"Closest achievable"</strong> instead of <strong>"Exact
+  match"</strong>, and shows the total it could get to.</p>
+  <p>The usual cause is a plate crossed out in the Plates grid. Turn the
+  missing plates back on and calculate again.</p>
+
+  <h3>Why do the kg and lb numbers not convert exactly?</h3>
+  <p>Kilo and pound plates are different pieces of metal, not conversions
+  of each other. A 25 kg plate is about 55.12 lb, and a 45 lb plate is
+  about 20.41 kg. The app solves in whichever unit you picked so the
+  plates it tells you to load are real plates, then shows the other unit
+  alongside as an approximation. That's why the second number often has a
+  decimal.</p>
+
+  <h3>How do I tell the app which plates my gym has?</h3>
+  <p>Tap the circle underneath a plate to cross it out. Crossed-out
+  plates are excluded from every calculation until you tap the circle
+  again.</p>
+  <p>Note that the plate selection resets when you fully quit and reopen
+  the app — it isn't saved between sessions yet.</p>
+
+  <h3>What do the collars do?</h3>
+  <p>The collar switch adds 2.5 kg competition collars to the total, one
+  per side. It applies to kilo plates only, matching how competition
+  collars are actually used.</p>
+
+  <h3>Which bar weights does it use?</h3>
+  <p>The men's bar is 20 kg / 45 lb and the women's bar is 15 kg / 35 lb,
+  selectable at the top of the calculator.</p>
+
+  <h3>How do I see the tutorial again?</h3>
+  <p>Open the <strong>ⓘ</strong> button in the top right, then tap
+  <strong>Replay tutorial</strong>. It runs the intro carousel and the
+  in-app tips again from the start.</p>
+
+  <h3>Does the app collect any of my data?</h3>
+  <p>No. There are no accounts, no analytics, no advertising, and no
+  network requests. Everything you enter stays on your device.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, bugs, or feature requests:
+  <a href="mailto:halstead.jack@gmail.com">halstead.jack@gmail.com</a>.</p>
+  <p>Please include your device model and iOS or Android version if
+  you're reporting a bug — it makes it much easier to track down.</p>
+</main>
+</body>
+</html>
